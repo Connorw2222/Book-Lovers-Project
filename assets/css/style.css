@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p, a{
+  font-size: 14px;
+}
+
+a{
+  color: black!important;
+}
+
+#search-bar {
+  width: 40%;
+}
+#search-btn {
+  position: relative;
+  background-color: #EC3B50 ;
+  color: white;
+  font-weight: bold;
+  padding-left: 40px;
+  font-size: 16px;
+}
+#logo{
+  padding-top: 20px;
+}
+
+/* ui Kit force css */
+h1,h2, h3, h4, h5, h6{
+  font-weight:bold!important;
+  }
+  h1,h2, h3, h4, h5, h6, p, a{
+    color: #666!important;
+  }
+.uk-card-default .uk-card-header {
+  border-bottom: 1px solid transparent!important;
+  }
+
+  .individual-book-container {
+    /* background-color: white; */
+    padding: 10px;
+  }
+  #search-bar {
+    color: #ec3b50;
+  }
+
+  .book-info-container {
+    background-color: #ec3b50;
+    padding: 20px 5px 5px 5px;
+    border-radius: 20px;
+    color: white!important;
+  }
+  .book-info-container p, h2{
+    color: white!important;
+  }
+.ch-limit-100 {
+  width: 200ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  max-width: 85%;
+}
+
+/* Error Page */
+.message {
+  color: #ec3b50!important;
+  font-size: 50px;
+  font-weight: bold;
+}
+#home-btn {
+  background-color: #EC3B50 ;
+  color: white!important;
+}
+
+.uk-white{
+  color: white!important;
+}
+
+/* Favorite Books Component CSS */
+#my-favbooks-btn{
+  transition: all .5s ease;
+}
+#my-favbooks-btn:hover{
+  background-color: #ec3b50;
+  color: white;
+}
+.book-title {
+  width: 200px;
+  max-height: 100px;
+  margin: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #ec3b50;
+  color: white!important;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.footer-content{
+  padding: 15px; 
+}
